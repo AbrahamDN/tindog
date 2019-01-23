@@ -1,0 +1,192 @@
+/* ---- Global Styling ---- */
+*{
+  font-family: 'Montserrat' !important;
+}
+body{
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h1{
+  font-size: 3.5rem ;
+  font-weight: 900;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+a:hover{/*to prevent the underline on FA icons under anchor tag*/
+  text-decoration: none;
+}
+
+/* Coloured/ White Sections */
+.coloured_section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white_section{
+  background-color: #fff;
+}
+
+/* Repeating styles */
+#testimonials, #press{
+  background: #ef8172;
+}
+
+#features, #testimonials, #press, #pricing, #cta, #footer{
+  padding: 7% 10%;
+  text-align: center;
+}
+
+/* Bootstrap elements */
+
+.container-fluid{
+  padding: 3% 10%;
+  line-height: 1.5;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.t_logo{
+  font-size: 2.5rem !important;
+  font-weight: 500;
+  text-indent: 0 !important;
+  font-family: 'Ubuntu' !important;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  text-indent: 2em;
+  font-weight: 400;
+}
+
+/* ---- Title (Top) Section ---- */
+
+#title{
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+/* Title image */
+.title_img{
+  transform: rotate(15deg);
+  width: 80%;
+}
+
+/* Download Buttons */
+.dwl_button{
+  margin: 5% 3% 5% 0;
+}
+
+/* ---- Features Section ---- */
+
+.feature_col{
+  padding: 5% 2.5%;
+}
+
+/* Font Awesome Icons */
+.icon{
+  color: #ef8172;
+  font-size: 6rem;
+  padding-bottom: 20px;
+}
+
+.icon:hover{
+  color: #ff4c68;
+  font-size: 6.15rem;
+}
+
+/* ---- Testimonials Section ---- */
+
+.testimonials_img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* ---- Press Section ---- */
+#press{
+  padding-bottom: 3%;
+}
+
+.press_img{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+
+/* ---- Pricing Section ---- */
+
+.pricing_column{
+  padding: 3% 2%;
+}
+
+/* ---- Call to Action Section ---- */
+#cta{
+  color: #fff;
+}
+#cta h1{
+  font-size: 3rem;
+}
+
+/* ---- Footer Section ---- */
+
+#footer a{
+  padding: 4% 1%;
+}
+
+#footer p{
+  margin-top: 2%;
+}
+
+.footer_icon{
+  color: #616161;
+}
+
+.footer_icon:hover{
+  color: #212121;
+}
+
+/* ------------------------------------------------ */
+/* ---------------Mobile Version------------------- */
+/* ------------------------------------------------ */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+    height: auto;
+  }
+
+  .title_img{
+    transform: rotate(0);
+    width: 40%;
+  }
+}
